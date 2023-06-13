@@ -48,8 +48,8 @@ class Cronometro extends Component{
         <img src={require('../../assets/cronometro.png')} className='img'/>
         <a className='timer'>{this.state.numero.toFixed(1)}</a>
         <div className='areaBtn'>
-          <a className='botao' onClick={this.vai}>{this.state.descricaoBotao}</a>
-          <a className='botao' onClick={this.zerar}>Zerar</a>
+          <a className='botao' onClick={this.vai}>{this.state.descricaoBotao}▶️</a>
+          <a className='botao' onClick={this.zerar}>Zerar🛑</a>
         </div>
       </div>
     )
