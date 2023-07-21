@@ -40,6 +40,6 @@
     transition: all 0.50s;
 }
 
-.timer{
+.timer, .iteracao{
     color: #FFF;
   }
