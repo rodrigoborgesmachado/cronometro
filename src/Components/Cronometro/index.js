@@ -53,7 +53,7 @@ class Cronometro extends Component{
           <button className='botao' onClick={this.vai}>{this.state.descricaoBotao}</button>
           <button className='botao' onClick={this.zerar}>Zerar🛑</button>
         </div>
-        <h1 className='iteracao'>Iteração: {this.state.iteracao}</h1>
+        <h1 className='iteracao'>Série: {this.state.iteracao}</h1>
       </div>
     )
   }
